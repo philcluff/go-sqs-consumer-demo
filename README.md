@@ -6,6 +6,11 @@ This implementation long-polls the queue, backing off when the queue is quiet, a
 
 Warning: This is incomplete and missing some error checking.
 
+TODO:
+
+* Testing
+* Full validation of err
+
 ## Running:
 
 Set some environment variables for your AWS creds and the app configuration:
