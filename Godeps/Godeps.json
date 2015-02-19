@@ -1,0 +1,25 @@
+{
+	"ImportPath": "github.com/GeneticGenesis/go-sqs-consumer-demo",
+	"GoVersion": "go1.4.1",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/awslabs/aws-sdk-go/aws",
+			"Rev": "caa0331a66e1267df593f09446efb5244c141376"
+		},
+		{
+			"ImportPath": "github.com/awslabs/aws-sdk-go/service/endpoints",
+			"Rev": "caa0331a66e1267df593f09446efb5244c141376"
+		},
+		{
+			"ImportPath": "github.com/awslabs/aws-sdk-go/service/sqs",
+			"Rev": "caa0331a66e1267df593f09446efb5244c141376"
+		},
+		{
+			"ImportPath": "github.com/vaughan0/go-ini",
+			"Rev": "a98ad7ee00ec53921f08832bc06ecf7fd600e6a1"
+		}
+	]
+}
