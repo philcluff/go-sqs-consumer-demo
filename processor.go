@@ -21,7 +21,6 @@ func main() {
 
 func (mp *MessageProcessor) pollQueue() {
 	for {
-
 		fmt.Println("Long polling for a message... (Will wait for 10s)")
 
 		// Fetch some messages, hide it for 10 seconds.
